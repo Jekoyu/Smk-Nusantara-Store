@@ -73,11 +73,66 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="AdminForm.Designer.vb">
+      <DependentUpon>AdminForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="AdminHome.Designer.vb">
+      <DependentUpon>AdminHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogout.Designer.vb">
+      <DependentUpon>AdminLogout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminManageBarang.Designer.vb">
+      <DependentUpon>AdminManageBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminManageBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllLaporan.Designer.vb">
+      <DependentUpon>AllLaporan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AllLaporan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control.vb" />
+    <Compile Include="KasirForm.Designer.vb">
+      <DependentUpon>KasirForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KasirForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KasirHome.Designer.vb">
+      <DependentUpon>KasirHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KasirHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KasirLogout.Designer.vb">
+      <DependentUpon>KasirLogout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KasirLogout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Konfirmasi.Designer.vb">
+      <DependentUpon>Konfirmasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Konfirmasi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -95,16 +150,52 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="TransaksiForm.Designer.vb">
+      <DependentUpon>TransaksiForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TransaksiForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminHome.resx">
+      <DependentUpon>AdminHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogout.resx">
+      <DependentUpon>AdminLogout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminManageBarang.resx">
+      <DependentUpon>AdminManageBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllLaporan.resx">
+      <DependentUpon>AllLaporan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KasirForm.resx">
+      <DependentUpon>KasirForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KasirHOme.resx">
+      <DependentUpon>KasirHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KasirLogout.resx">
+      <DependentUpon>KasirLogout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Konfirmasi.resx">
+      <DependentUpon>Konfirmasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransaksiForm.resx">
+      <DependentUpon>TransaksiForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
