@@ -45,10 +45,6 @@
 
     End Sub
 
-
-
-
-
     Private Sub TbUsername_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TbUsername.KeyPress
         If e.KeyChar = Chr(13) Then
             If Not TbPassword.Text = "" Or TbUsername.Text = "" Then
@@ -59,8 +55,6 @@
 
         End If
     End Sub
-
-
 
     Private Sub TbPassword_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TbPassword.KeyPress
         If e.KeyChar = Chr(13) Then

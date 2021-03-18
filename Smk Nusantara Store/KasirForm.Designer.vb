@@ -31,7 +31,9 @@ Partial Class KasirForm
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.PnlContent = New System.Windows.Forms.Panel()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.Panel4.SuspendLayout()
+        Me.Panel3.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel4
@@ -112,6 +114,7 @@ Partial Class KasirForm
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.DarkGray
+        Me.Panel3.Controls.Add(Me.Button5)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel3.Location = New System.Drawing.Point(200, 0)
         Me.Panel3.Name = "Panel3"
@@ -139,6 +142,15 @@ Partial Class KasirForm
         Me.Button4.Text = "Logout"
         Me.Button4.UseVisualStyleBackColor = True
         '
+        'Button5
+        '
+        Me.Button5.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Button5.Location = New System.Drawing.Point(866, 0)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(34, 35)
+        Me.Button5.TabIndex = 0
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'KasirForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -152,6 +164,7 @@ Partial Class KasirForm
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "KasirForm"
         Me.Panel4.ResumeLayout(False)
+        Me.Panel3.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -165,4 +178,5 @@ Partial Class KasirForm
     Friend WithEvents Panel3 As Panel
     Friend WithEvents PnlContent As Panel
     Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
 End Class
